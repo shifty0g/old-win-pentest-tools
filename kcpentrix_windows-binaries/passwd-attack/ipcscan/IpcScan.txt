@@ -1,0 +1,2 @@
+[192.168.1.12]: Found "NT account: Administrator/[null]"
+[192.168.1.19]: Found "NT account: administrator/123456"

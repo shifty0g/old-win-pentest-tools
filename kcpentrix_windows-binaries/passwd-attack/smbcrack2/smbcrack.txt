@@ -1,0 +1,69 @@
+前几天在论坛上讲到了这个，决定放出来请大家一起看下。
+算是对小榕的smbcrack的一个提高。
+
+
+（注意：以下所有参数对大小写敏感）
+
+
+
+           ****************************************************
+           SMB Password Cracker 2.0 For Windows
+           Crackersoftware@163.com   Code By Xtiger  2004.8.1
+           ****************************************************
+
+[usage   :]
+           smbcrack2.exe <option> [option]
+
+<option :>
+           -i IP address of server to bruteforce
+           -p Path to file containing passwords
+           -s Path to file containing Password scheme
+           -u Path to file containing users(can replace by option '-d')
+           -R Path to file containing Crack Session Resume info
+[option :]
+           -w Workgroup/Domain
+           -b Beep When Found one password
+           -t Timeout for connect (default 300ms)
+           -l Path to log file (default log as 'ip'.txt)
+           -v Dump Smb User On Verbose Mode
+           -d Dump Smb User Instead of User File
+           -c Count Number For Dump Smb User (Default 200)
+           -k Auto Skip Some unavailable User (Nice Use with '-d' Option)
+           -N NTLM Authenication  (default pure SMB Authenication)
+           -V Be verbose When Do Smb Password Crack (default off)
+           -F Force Crack Even Found User Have Been Lock (Must use with '-N')
+           -P Protocol version  0-Netbios Mode(default)  1-Win2K Native Mode
+
+
+主要优点：
+
+
+1.在139、445端口上分别实现了明文SMB和NTLM SMB验证。
+  （使用-P 1 来指定端口445，默认为139。）
+  （使用 -N  来指定NTLM SMB验证方式，默认为明文SMB验证。）
+
+2.由使用NTLM验证方式带来的好处：
+  可以识别并跳过禁用的用户，可以识别用户的锁定阀值，可以识别破解出的帐户下次是否需要改变密码。
+  （使用-F  来指定在发现登陆次数限制后是否强制继续破解，必须和-N参数一起使用，默认在发现锁定阀值后自动只尝试:锁定阀值-2 次。）
+
+
+3.内置两种方式提取主机用户列表功能。在正常方式失败后，可通过SID2USER方式提取。
+  （使用 -d 实现）
+
+
+4.支持密码文件和密码方案文件两种方式的破解，计算破解所需大概时间，可保存并恢复破解会话。
+  （密码方案文件可参考 *.sch 文件）
+  （使用 -R *.res 实现破解会话的恢复）
+
+
+
+大部分代码移植自smbbaf for linux。;) 程序未经过全面严格的测试。
+如果你在使用和测试的过程中有任何的错误、意见和想法，请MAIL我，谢谢。
+希望能认识更多志同道合的朋友。
+
+
+最后说点废话，但好象又不得不说。
+
+***请明智地使用程序，自己对结果负责。我不负责程序带来的任何法律问题。***
+
+

@@ -1,0 +1,31 @@
+http://isc.sans.org/gdiscan.php
+
+GDI Scan
+
+gdiscan.exe was written for Windows 2000 and higher. It scans the drive containing the Windows %system% directory and Looks for vulnerable versions of gdiplus.dll, sxs.dll, wsxs.dll, mso.dll.
+
+The scan starts upon execution. It will signal completion of scan in text box with "Done."
+
+Vulnerable versions of the .dll files are listed in RED.
+
+The path where a vulnerable .dll file is found is important. Remember that dlls are loaded in the following order (note: this is a VAST simplification):
+
+    * The directory from which the application loaded.
+    * The (application's) current directory.
+    * Windows 95/98: The Windows system directory (default: C:\Windows\system)
+    * Windows NT+: The 32-bit Windows system directory (default: C:\WinNT\System32)
+    * Windows NT+: The 16-bit Windows system directory (default: C:\WinNT\System)
+    * The Windows directory (default: C:\WinNT or C:\Windows)
+    * The directories that are listed in the PATH environment variable
+
+download GUI version (Ver. 2.1) (updated. Version 2 will allow you to scan arbitrary drives) (MD5: 2157e5553c7e00173de3c2bbb1caef37) PGP Signature command line version (MD5: 23125875967a5b6be86eed79af9bcd74) PGP Signature (Ver. 2.1 now includes scanning on arbitrary drives)
+(Thanks to Tom Liston for writing this program)
+
+
+FAQ
+
+    * Ignore files in directories like Windows\$NtUniinstallKBxxxxx\ and Windows\WinSxS. These are old versions left behind for uninstal purposes.
+    * There are no command line options for the gui version.
+    * the only parameter for the command line option is the log filename (usage: gdiclscan.exe logfile). It will exit with a return code of 1 if it can not open the log file. The command line version will not overwrite the log file.
+
+License: You may freely copy and use this binary. Please do not mirror the file, as updates may be made available at any time without notice. If you link to this tool, link to http://isc.sans.org/gdiscan.php .

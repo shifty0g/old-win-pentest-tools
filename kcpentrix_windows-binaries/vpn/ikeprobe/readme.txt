@@ -1,0 +1,13 @@
+License:
+Copyright (c) 2003 Michael Thumann. 
+You can use and distribute the program for free as long as the code is not modified.
+
+Disclaimer:
+The program is provided "AS IS" without warranty 
+of any kind. In no event shall the author be liable for any damages 
+whatsoever including direct, indirect, incidental, consequential, 
+loss of business profits or special damages due to the misuse of this
+program. 
+
+
+
