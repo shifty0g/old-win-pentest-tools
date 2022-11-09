@@ -1,0 +1,9 @@
+# Password guessing dictionary
+#
+# <lcusername>  -- username converted to lower case
+# <ucusername>  -- username converted to upper case
+# <username>    -- username with casing intact
+# <blank>       -- no password
+
+<lcusername>
+<blank>

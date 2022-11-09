@@ -1,0 +1,26 @@
+#
+# List registry keys to be queried below. All keys are queried
+# from the HKEY_LOCAL_MACHINE hive.
+#
+# Format:
+#
+# <registry key>:<registry value>
+#
+# Example:
+#
+# SOFTWARE\Microsoft\Windows NT\CurrentVersion:ProductName
+#
+###############################################################
+
+SOFTWARE\Microsoft\Windows NT\CurrentVersion:ProductName
+SOFTWARE\Microsoft\Windows NT\CurrentVersion:CurrentVersion
+SOFTWARE\Microsoft\Windows NT\CurrentVersion:CSDVersion
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon:DefaultDomainName
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon:DefaultUserName
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon:DefaultPassword
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon:cachedlogonscount
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon:LegalNoticeCaption
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon:LegalNoticeText
+SYSTEM\CurrentControlSet\Control\Lsa:nolmhash
+SYSTEM\CurrentControlSet\Control\Lsa:restrictanonymous
+SYSTEM\CurrentControlSet\Control\Lsa:restrictanonymoussam

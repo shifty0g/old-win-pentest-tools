@@ -1,0 +1,71 @@
+# MS08-067 - Windows Server 2003 Service Pack 2
+# MS08-067 - Windows Server 2003 Service Pack 1
+# MS08-067 - Windows XP Service Pack 3
+# MS08-067 - Windows XP Service Pack 2
+# MS08-067 - Windows 2000 Service Pack 4
+
+5.2:Service Pack 2:MS08-067:\ADMIN$\system32\netapi32.dll:5:2:3790:4392
+5.2:Service Pack 1:MS08-067:\ADMIN$\system32\netapi32.dll:5:2:3790:3229
+5.1:Service Pack 3:MS08-067:\ADMIN$\system32\netapi32.dll:5:1:2600:5694
+5.1:Service Pack 2:MS08-067:\ADMIN$\system32\netapi32.dll:5:1:2600:3462
+5.0:Service Pack 4:MS08-067:\ADMIN$\system32\netapi32.dll:5:0:2195:7203
+
+
+
+# MS06-040 - Windows Server 2003 Service Pack 1
+# MS06-040 - Windows Server 2003
+# MS06-040 - Windows XP Service Pack 2
+# MS06-040 - Windows XP Service Pack 1
+# MS06-040 - Windows 2000 Service Pack 4
+
+5.2:Service Pack 1:MS06-040:\ADMIN$\system32\netapi32.dll:5:2:3790:2769
+5.2::MS06-040:\ADMIN$\system32\netapi32.dll:5:2:3790:559
+5.1:Service Pack 2:MS06-040:\ADMIN$\system32\netapi32.dll:5:1:2600:2952
+5.1:Service Pack 1:MS06-040:\ADMIN$\system32\netapi32.dll:5:1:2600:1874
+5.0:Service Pack 4:MS06-040:\ADMIN$\system32\netapi32.dll:5:0:2195:7105
+
+
+
+# MS05-039 - Windows Server 2003 Service Pack 1
+# MS05-039 - Windows Server 2003
+# MS05-039 - Windows XP Service Pack 2
+# MS05-039 - Windows XP Service Pack 1
+# MS05-039 - Windows 2000 Service Pack 4
+
+5.2:Service Pack 1:MS05-039:\ADMIN$\system32\umpnpmgr.dll:5:2:3790:2477
+5.2::MS05-039:\ADMIN$\system32\umpnpmgr.dll:5:2:3790:360
+5.1:Service Pack 2:MS05-039:\ADMIN$\system32\umpnpmgr.dll:5:1:2600:2710
+5.1:Service Pack 1:MS05-039:\ADMIN$\system32\umpnpmgr.dll:5:1:2600:1711
+5.0:Service Pack 4:MS05-039:\ADMIN$\system32\umpnpmgr.dll:5:0:2195:7057
+
+
+
+# MS03-026 - Windows Server 2003
+# MS03-026 - Windows XP Service Pack 1
+# MS03-026 - Windows XP
+# MS03-026 - Windows 2000 Service Pack 4
+# MS03-026 - Windows 2000 Service Pack 3
+# MS03-026 - Windows 2000 Service Pack 2
+# MS03-026 - Windows NT 4.0 Service Pack 6a
+
+5.2::MS03-026:\ADMIN$\system32\ole32.dll:5:2:3790:68
+5.2::MS03-026:\ADMIN$\system32\rpcrt4.dll:5:2:3790:59
+5.2::MS03-026:\ADMIN$\system32\rpcss.dll:5:2:3790:68
+5.1:Service Pack 1:MS03-026:\ADMIN$\system32\ole32.dll:5:1:2600:1230
+5.1:Service Pack 1:MS03-026:\ADMIN$\system32\rpcrt4.dll:5:1:2600:1243
+5.1:Service Pack 1:MS03-026:\ADMIN$\system32\rpcss.dll:5:1:2600:1230
+5.1::MS03-026:\ADMIN$\system32\ole32.dll:5:1:2600:115
+5.1::MS03-026:\ADMIN$\system32\rpcrt4.dll:5:1:2600:109
+5.1::MS03-026:\ADMIN$\system32\rpcss.dll:5:1:2600:115
+5.0:Service Pack 4:MS03-026:\ADMIN$\system32\ole32.dll:5:0:2195:6769
+5.0:Service Pack 4:MS03-026:\ADMIN$\system32\rpcrt4.dll:5:0:2195:6753
+5.0:Service Pack 4:MS03-026:\ADMIN$\system32\rpcss.dll:5:0:2195:6769
+5.0:Service Pack 3:MS03-026:\ADMIN$\system32\ole32.dll:5:0:2195:6769
+5.0:Service Pack 3:MS03-026:\ADMIN$\system32\rpcrt4.dll:5:0:2195:6753
+5.0:Service Pack 3:MS03-026:\ADMIN$\system32\rpcss.dll:5:0:2195:6769
+5.0:Service Pack 2:MS03-026:\ADMIN$\system32\ole32.dll:5:0:2195:6769
+5.0:Service Pack 2:MS03-026:\ADMIN$\system32\rpcrt4.dll:5:0:2195:6753
+5.0:Service Pack 2:MS03-026:\ADMIN$\system32\rpcss.dll:5:0:2195:6769
+4.0:Service Pack 6:MS03-026:\ADMIN$\system32\ole32.dll:4:0:1381:7224
+4.0:Service Pack 6:MS03-026:\ADMIN$\system32\rpcrt4.dll:4:0:1381:7219
+4.0:Service Pack 6:MS03-026:\ADMIN$\system32\rpcss.exe:4:0:1381:7224
